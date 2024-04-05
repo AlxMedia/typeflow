@@ -51,6 +51,14 @@
 			
 		</header><!--/#header-->
 		
+		<?php if ( get_header_image() ) : ?>
+			<div class="site-header">
+				<a href="<?php echo esc_url( home_url('/') ); ?>" rel="home">
+					<img class="site-image" src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+				</a>
+			</div>
+		<?php endif; ?>
+		
 		<?php if ( get_theme_mod( 'theme-toggle', 'on' ) == 'on' ): ?>
 			<button id="theme-toggle">
 				<i class="fas fa-sun"></i>
