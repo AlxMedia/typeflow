@@ -42,7 +42,7 @@
 	
 	.stickywrap .stickywrap-inner { padding-right: 40px; }
 	
-	.featured-card-large { margin-right: 0; margin-top: 41px; }
+	.featured-card-large { margin-top: 41px; }
 	
 	.comment-tabs { font-size: 14px; }
 	.commentlist li { font-size: 13px; }
@@ -56,6 +56,10 @@
 	
 	#footer { padding: 40px; }
 	
+}
+
+@media only screen and (max-width: 620px) {
+	.featured-card-large { margin-right: 0; }
 }
 
 @media only screen and (max-width: 479px) {
@@ -80,6 +84,8 @@
 	.intro-card-right { text-align: center; }
 	.intro-card-thumb { margin: 0 auto; }
 	.intro-card-title { font-size: 24px; margin-top: 12px; }
+	
+	.feaured-large-title { font-size: 19px; min-height: 76px; max-height: 76px; }
 	
 	.blog-card { margin-bottom: 20px; padding-bottom: 10px; }
 	.blog-card-inner { padding-left: 64px; }

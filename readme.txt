@@ -57,9 +57,12 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
-Content images
+Intro images
 1. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
-2. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
+
+Carousel images
+1. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/TVMNBUOZP7 - CC0 1.0 Universal (CC0 1.0)
 3. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==

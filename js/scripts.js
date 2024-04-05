@@ -89,13 +89,19 @@ jQuery(document).ready(function($) {
 	};
 
 	$(".slick-posts").randomize().slick({
-	  slidesToShow: 2,
+	  slidesToShow: 3,
 	  appendArrows: '.slick-posts-nav',
 	  dots: true,
 	  arrows: false,
 	  responsive: [
+	    {
+		  breakpoint: 920,
+		  settings: {
+			slidesToShow: 2
+		  }
+		},
 		{
-		  breakpoint: 719,
+		  breakpoint: 620,
 		  settings: {
 			slidesToShow: 1
 		  }
