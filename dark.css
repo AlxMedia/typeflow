@@ -6,7 +6,8 @@ body:where(.dark) .canvas-inner  { background: #1e1e1e; }
 body:where(.dark) .stickywrap .stickywrap-heading-inner { border-color: #1e1e1e; }
 
 body:where(.dark.invert-dark-logo) .site-title a img,
-body:where(.dark.invert-dark-logo) .site-title a svg { filter: invert(1); }
+body:where(.dark.invert-dark-logo) .site-title a svg,
+body:where(.dark.invert-dark-logo) #footer-logo { filter: invert(1); }
 
 body:where(.dark) { color: rgba(255,255,255,0.6); }
 body:where(.dark) a,
