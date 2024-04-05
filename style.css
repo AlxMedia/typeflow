@@ -799,7 +799,7 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 
 /*  single : post-nav
 /* ------------------------------------ */
-.post-nav { margin-bottom: 60px; border-bottom: 1px solid rgba(0,0,0,0.06); }
+.post-nav { box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; border-radius: 12px; margin-bottom: 60px; overflow: hidden; }
 .post-nav li { width: 50%; display: inline; float: left; }
 .post-nav li a { position: relative; display: block; padding-top: 20px; padding-bottom: 20px; overflow: hidden; }
 .post-nav li i { color: rgba(0,0,0,0.4); font-size: 18px; position: absolute; top: 50%; margin-top: -10px; }
@@ -811,8 +811,8 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 .post-nav li.next { float: right; }
 .post-nav li.previous a { padding-left: 40px; padding-right: 20px; }
 .post-nav li.next a { padding-left: 20px; padding-right: 40px; }
-.post-nav li.previous i { left: 0; }
-.post-nav li.next i { right: 0; }
+.post-nav li.previous i { left: 10px; }
+.post-nav li.next i { right: 10px; }
 .post-nav li a span,
 .post-nav li a i { transition-property: background color; transition-duration: 0.2s; transition-timing-function: ease-out; }
 

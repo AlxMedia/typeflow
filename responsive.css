@@ -51,8 +51,6 @@
 	.sharrre-footer .sharrre .share span { display: none; }
 	.post-nav { border-bottom: 0; }
 	.post-nav li { width: 100%; border-bottom: 1px solid rgba(0,0,0,0.06); }
-	.post-nav li.next a { padding-left: 0; }
-	.post-nav li.previous a { padding-right: 0; }
 	
 	#footer { padding: 40px; }
 	
