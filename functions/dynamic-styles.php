@@ -116,6 +116,22 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .entry > :not(.alignfull) { max-width: '.esc_attr( get_theme_mod('content-width') ).'px; }
 				'."\n";
 			}
+			// thumb border radius
+			if ( get_theme_mod('thumb-border-radius','0') != '0' ) {
+				$styles .= '
+.intro-card-thumb,
+.intro-card-thumb img,				
+.featured-card-large-thumb,
+.featured-card-thumb,
+.featured-card-thumb a,
+.featured-card-thumb img,
+.blog-card-thumb,
+.blog-card-thumb a,
+.blog-card-thumb img,
+.entry-header .entry-featured-image,
+.entry-header .entry-featured-image img { border-radius: '.esc_attr( get_theme_mod('thumb-border-radius') ).'px; }
+				'."\n";
+			}
 			// gradient left
 			if ( get_theme_mod('gradient-left','#1e73be') != '#1e73be' ) {
 				$styles .= '

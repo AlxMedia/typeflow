@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Typeflow\n"
-"POT-Creation-Date: 2024-04-05 18:49+0200\n"
+"POT-Creation-Date: 2024-04-05 19:55+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -560,18 +560,26 @@ msgid "Change color for the logo in dark mode"
 msgstr ""
 
 #: functions/theme-options.php:478
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: functions/theme-options.php:479
+msgid "Set to 0 for default radiuses"
+msgstr ""
+
+#: functions/theme-options.php:492
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:486
+#: functions/theme-options.php:500
 msgid "Gradient Right"
 msgstr ""
 
-#: functions/theme-options.php:494
+#: functions/theme-options.php:508
 msgid "Background Color"
 msgstr ""
 
-#: functions/theme-options.php:502
+#: functions/theme-options.php:516
 msgid "Background Color Border"
 msgstr ""
 

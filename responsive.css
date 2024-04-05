@@ -86,10 +86,11 @@
 	.intro-card-title { font-size: 24px; margin-top: 12px; }
 	
 	.feaured-large-title { font-size: 19px; min-height: 76px; max-height: 76px; }
+	.featured-card-thumb { padding: 0; }
 	
 	.blog-card { margin-bottom: 20px; padding-bottom: 10px; }
 	.blog-card-inner { padding-left: 64px; }
-	.blog-card-thumb { width: 48px; height: 48px; padding: 5px; }
+	.blog-card-thumb { width: 48px; height: 48px; padding: 0; }
 	.blog-card-right { padding-top: 0; }
 	
 	.entry-header .entry-title { font-size: 24px; }

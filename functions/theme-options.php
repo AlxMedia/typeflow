@@ -471,6 +471,20 @@ Kirki::add_field( 'typeflow_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Thumbnail Border Radius
+Kirki::add_field( 'typeflow_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'thumb-border-radius',
+	'label'			=> esc_html__( 'Thumbnail Border Radius', 'typeflow' ),
+	'description'	=> esc_html__( 'Set to 0 for default radiuses', 'typeflow' ),
+	'section'		=> 'styling',
+	'default'		=> '0',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '60',
+		'step'	=> '1',
+	),
+) );
 // Styling: Gradient Left
 Kirki::add_field( 'typeflow_theme', array(
 	'type'			=> 'color',
