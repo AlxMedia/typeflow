@@ -70,14 +70,16 @@
 	.site-header img { border-radius: 0; }
 	#theme-toggle { left: -10px; bottom: 10px; }
 	
-	.stickywrap .stickywrap-inner { padding-left: 20px; padding-right: 20px; }
+	.stickywrap .stickywrap-inner { padding-left: 20px; padding-right: 20px; margin-bottom: 20px; }
 	.stickywrap .stickywrap-inner:before { right: 20px; }
 	.stickywrap .stickywrap-inner:after { left: 20px; right: 20px; }
 	.stickywrap .stickywrap-heading { font-size: 22px; }
-	.stickywrap .stickywrap-heading-inside { padding-top: 0; padding-bottom: 0; width: 80px; }
+	.stickywrap .stickywrap-heading-inside { width: 86px; }
 	.stickywrap .stickywrap-heading-inside img { width: 42px; margin: 0 0 0 -20px; }	
-	.stickywrap .stickywrap-heading:before { left: 96px; }
+	.stickywrap .stickywrap-heading:before { left: 96px; top: 20px; }
 	.slick-featured .slick-dots { padding-right: 0; }
+	
+	.pagination { margin-top: 60px; }
 	
 	.intro-card-inner { padding-left: 0; }
 	.intro-card-left { position: relative; }
