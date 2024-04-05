@@ -74,9 +74,9 @@
 	.stickywrap .stickywrap-inner:before { right: 20px; }
 	.stickywrap .stickywrap-inner:after { left: 20px; right: 20px; }
 	.stickywrap .stickywrap-heading { font-size: 22px; }
-	.stickywrap .stickywrap-heading-inside { width: 86px; }
+	.stickywrap .stickywrap-heading-inside { width: 86px; padding-left: 10px; padding-right: 10px; }
 	.stickywrap .stickywrap-heading-inside img { width: 42px; margin: 0 0 0 -20px; }	
-	.stickywrap .stickywrap-heading:before { left: 96px; top: 20px; }
+	.stickywrap .stickywrap-heading:before { left: 76px; top: 20px; }
 	.slick-featured .slick-dots { padding-right: 0; }
 	
 	.pagination { margin-top: 60px; }
@@ -85,15 +85,19 @@
 	.intro-card-left { position: relative; }
 	.intro-card-right { text-align: center; }
 	.intro-card-thumb { margin: 0 auto; }
-	.intro-card-title { font-size: 24px; margin-top: 12px; }
+	.intro-card-title { font-size: 22px; margin-top: 12px; }
+	.intro-card-desc { font-size: 13px; line-height: 1.6em; }
 	
 	.feaured-large-title { font-size: 19px; min-height: 76px; max-height: 76px; }
 	.featured-card-thumb { padding: 0; }
+	.featured-card-date { font-size: 13px; }
 	
 	.blog-card { margin-bottom: 20px; padding-bottom: 10px; }
 	.blog-card-inner { padding-left: 64px; }
 	.blog-card-thumb { width: 48px; height: 48px; padding: 0; }
 	.blog-card-right { padding-top: 0; }
+	.blog-card-title { font-size: 18px; }
+	.blog-card-excerpt { font-size: 13px; line-height: 1.6em; padding-bottom: 12px; }
 	
 	.entry-header .entry-title { font-size: 24px; }
 	
@@ -104,7 +108,6 @@
 	
 	.sharrre-footer .sharrre .count { display: none; }
 	
-	#footer { padding: 20px; }
-	
+	#footer { padding: 20px; margin-top: 60px; }
 }
 
