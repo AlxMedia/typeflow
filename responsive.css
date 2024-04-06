@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 719px) {
-	.wrapper-outer { padding: 0; }
+	.wrapper-outer { overflow: hidden; padding: 0; }
 	.wrapper-inner { padding-left: 20px; padding-right: 20px; }
 	.canvas-wrapper { padding: 0; top: 0!important; }
 	.canvas-inner { border-radius: 0; }
