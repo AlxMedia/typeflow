@@ -41,6 +41,7 @@ body:where(.dark) .blog-card-thumb-empty:hover { color: rgba(255,255,255,0.2); }
 body:where(.dark) .stickywrap .stickywrap-heading-inside { background: transparent; box-shadow: 0 0 1px rgba(255,255,255,0.3); }
 body:where(.dark) .stickywrap .stickywrap-heading-inside,
 body:where(.dark) .stickywrap .stickywrap-heading a { color: rgba(255,255,255,0.2); }
+body:where(.dark) .stickywrap .stickywrap-heading:after { border: 1px solid rgba(255,255,255,0.12); }
 body:where(.dark) .stickywrap .stickywrap-heading-inside:after { border-color: transparent transparent transparent rgba(255,255,255,0.1); }
 
 body:where(.dark) .blog-card-date, 
