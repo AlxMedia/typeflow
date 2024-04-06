@@ -443,8 +443,8 @@ body { background: #fff; }
 .stickywrap:before { content:""; background: radial-gradient(at bottom left, #fff, transparent, transparent); border-left: 1px solid rgba(0,0,0,0.12); border-bottom: 1px solid rgba(0,0,0,0.12); height: 100%; border-radius: 24px; position: absolute; left: 130px; right: 0; top: 0; bottom: 0; pointer-events: none; }
 .stickywrap:nth-child(1):before { border-bottom: 0; }
 .stickywrap .stickywrap-heading { position: sticky; top: 28px; height: 60px; display: flex; align-items: center; font-size: 32px; letter-spacing: -0.04em; font-weight: 600; line-height: 1.3em; text-transform: uppercase; color: rgba(0,0,0,0.12); }
-.stickywrap .stickywrap-heading:before { content:""; width: 40px; height: 12px; background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); position: absolute; border-radius: 12px; top: 24px; left: 126px; z-index: 2; }
-.stickywrap .stickywrap-heading:after { content: ""; border: 1px solid rgba(0,0,0,0.12); border-right: 0!important; width: 37px; height: 18px; position: absolute; border-radius: 12px 0 0 12px; top: 20px; left: 122px; z-index: 1; }
+.stickywrap .stickywrap-heading:before { content:""; width: 40px; height: 6px; background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); position: absolute; border-radius: 12px; top: 27px; left: 126px; z-index: 2; }
+.stickywrap .stickywrap-heading:after { content: ""; border: 1px solid rgba(0,0,0,0.12); border-right: 0!important; width: 37px; height: 12px; position: absolute; border-radius: 12px 0 0 12px; top: 23px; left: 122px; z-index: 1; }
 .stickywrap .stickywrap-heading a { color: rgba(0,0,0,0.12); }
 .admin-bar .stickywrap .stickywrap-heading { top: 60px; }
 
@@ -453,7 +453,7 @@ body { background: #fff; }
 .stickywrap .stickywrap-heading-inner { display: block; width: 12px; height: 12px; border-radius: 100%; position: absolute; top: 23px; left: 123px; z-index: 3; }
 .stickywrap .stickywrap-heading-inner i { font-size: 14px; color: #fff; display: block; margin-top: 1px; } 
 .stickywrap .stickywrap-inner { margin-left: 130px; padding-left: 40px; margin-bottom: 60px; margin-top: -60px; position: relative; }
-.stickywrap .stickywrap-inner:before { background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); content:""; width: 40px; height: 12px; border-radius: 12px 12px 0 0; position: absolute; right: 40px; bottom: -1px; }
+.stickywrap .stickywrap-inner:before { background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); content:""; width: 40px; height: 6px; border-radius: 12px 12px 0 0; position: absolute; right: 40px; bottom: -1px; }
 
 .stickywrap .blog-card:last-child { border-bottom: 0; padding-bottom: 24px; }
 .stickywrap .featured-card:last-child { border-bottom: 0; padding-bottom: 40px; }

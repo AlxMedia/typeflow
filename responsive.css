@@ -74,8 +74,8 @@
 	.stickywrap .stickywrap-heading { font-size: 22px; }
 	.stickywrap .stickywrap-heading-inside { width: 86px; padding-left: 12px; padding-right: 12px; }
 	.stickywrap .stickywrap-heading-inside img { width: 42px; margin: 0 0 0 -20px; }	
-	.stickywrap .stickywrap-heading:before { left: 76px; top: 24px; width: 40px; }
-	.stickywrap .stickywrap-heading:after { top: 20px; left: 72px; }
+	.stickywrap .stickywrap-heading:before { left: 76px; top: 27px; width: 40px; }
+	.stickywrap .stickywrap-heading:after { top: 23px; left: 72px; }
 	.slick-featured .slick-dots { padding-right: 0; }
 	
 	.pagination { margin-top: 60px; }
