@@ -67,5 +67,9 @@ Carousel images
 
 == Changelog ==
 
+= 1.0.1 - 2024-04-06 =
+* Tweaked the theme design
+* Updated screenshot
+
 = 1.0.0 - 2024-04-06 =
 * Initial release
