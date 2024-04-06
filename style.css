@@ -435,7 +435,7 @@ body { background: #fff; }
 #header { padding: 10px 0; margin-bottom: 60px; }
 
 .card-comments,
-.card-comments:hover { background: rgba(0,0,0,0.06); color: rgba(0,0,0,0.7); border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
+.card-comments:hover { background: #fff; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
 .card-comments span { font-weight: 400; transition: all 0.2s ease; }
 .card-comments i { margin-right: 4px; position: relative; }
 
@@ -510,7 +510,7 @@ body { background: #fff; }
 .blog-card-title { font-weight: 600; font-size: 19px; margin-bottom: 6px; line-height: 1.4em; }
 .blog-card-bottom { text-transform: uppercase; font-weight: 300; font-size: 11px; margin: 12px 0; }
 .blog-card-date,
-.blog-card-category a { background: rgba(0,0,0,0.06); color: rgba(0,0,0,0.7); border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
+.blog-card-category a { background: #fff; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
 
 .single-card { margin-left: 200px; padding-left: 40px; margin-bottom: 12px; position: relative; }
 
