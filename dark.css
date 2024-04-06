@@ -69,7 +69,6 @@ body:where(.dark) .small-heading:after { background: rgba(255,255,255,0.06); }
 
 body:where(.dark) .themeform input:not([type="submit"]):not([type="checkbox"]), 
 body:where(.dark) .themeform textarea { color: rgba(255,255,255,0.5); border: 1px solid rgba(255,255,255,0.1); }
-body:where(.dark) .themeform input[type="submit"] { background: #fff; color: #000; }
 body:where(.dark) .themeform textarea:focus, 
 body:where(.dark) .themeform input:not([type="submit"]):focus { outline: 1px solid rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.75); }
 body:where(.dark) .themeform.searchform div input:not([type="submit"]):not([type="checkbox"]) { background: transparent; }

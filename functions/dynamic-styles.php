@@ -140,7 +140,8 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 #theme-toggle-btn:before,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
-.commentlist li.comment-author-admin > .comment-body:after { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.commentlist li.comment-author-admin > .comment-body:after,
+.themeform input[type="submit"] { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 				'."\n";
 			}
 			// gradient right
@@ -151,7 +152,8 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 #theme-toggle-btn:before,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
-.commentlist li.comment-author-admin > .comment-body:after { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.commentlist li.comment-author-admin > .comment-body:after,
+.themeform input[type="submit"] { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 				'."\n";
 			}
 			// background color

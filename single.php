@@ -71,7 +71,7 @@
 					
 					<?php if ( get_theme_mod( 'post-nav', 'content' ) == 'content' ) { get_template_part('inc/post-nav'); } ?>
 					
-					<div class="themeform">
+					<div class="entry-comments themeform">
 						<?php comments_template(); ?>
 					</div>
 					

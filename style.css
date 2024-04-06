@@ -72,14 +72,14 @@ ol, ul { box-sizing: content-box; }
 /* ------------------------------------ */
 input, textarea, button, select, label { font-family: inherit; }
 .themeform input:not([type="submit"]):not([type="checkbox"]), 
-.themeform textarea { background: transparent; color: rgba(0,0,0,0.5); font-size: 14px; width: 100%; box-sizing: border-box; display: block; border-radius: 4px; padding: 8px 10px; border: 1px solid rgba(0,0,0,0.1); line-height: 1.5em; }
-.themeform input[type="submit"] { background: #000; color: #fff; font-size: 14px; border: 0; cursor: pointer; border-radius: 4px; padding: 12px 14px; display: block;  }
+.themeform textarea { background: transparent; color: rgba(0,0,0,0.5); font-size: 14px; width: 100%; box-sizing: border-box; display: block; border-radius: 12px; padding: 8px 10px; border: 1px solid rgba(0,0,0,0.1); line-height: 1.5em; }
+.themeform input[type="submit"] { background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); color: #fff; font-weight: 600; font-size: 14px; border: 0; cursor: pointer; border-radius: 12px; padding: 12px 14px; display: block;  }
 .themeform textarea:focus, 
 .themeform input:not([type="submit"]):focus { outline: 1px solid rgba(0,0,0,0.2); border-color: rgba(0,0,0,0.2); color: rgba(0,0,0,0.75); }
 
 .themeform.searchform div { position: relative; }
 .themeform.searchform div input:not([type="submit"]):not([type="checkbox"]) { background: #fff; padding-left: 30px; }
-.themeform.searchform div:after { color: rgba(0,0,0,0.4); line-height: 24px; font-size: 14px; content: "\f002"; position: absolute; left: 10px; top: 6px; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.themeform.searchform div:after { color: rgba(0,0,0,0.4); line-height: 24px; font-size: 14px; content: "\f002"; position: absolute; left: 12px; top: 7px; font-family: "Font Awesome 6 Free"; font-weight: 900; }
 
 /*  base : entry
 /* ------------------------------------ */
@@ -161,7 +161,7 @@ transition: all .2s ease;
 /* ------------------------------------ */
 .heading,
 #reply-title,
-h3#comments { font-weight: normal; font-size: 18px; font-weight: 600; margin-bottom: 1em; }
+h3#comments { font-weight: normal; font-size: 18px; font-weight: 600; margin-bottom: 1em; line-height: 1.5em; }
 .heading i { font-size: 22px; margin-right: 6px; }
 
 
@@ -521,7 +521,7 @@ body { background: #fff; }
 .small-heading { display: flex; align-items: center; font-size: 24px; font-weight: 800; line-height: 1.3em; text-transform: uppercase; padding: 10px 0; overflow: hidden; }
 .small-heading:after { content: ''; height: 1px; background: rgba(0,0,0,0.08); flex-grow: 1; margin-left: 14px; }
 .small-heading i { margin-right: 6px; }
-body.single .small-heading { margin: 20px 0; }
+body.single .small-heading { margin: 20px 0; font-size: 16px; }
 
 .page-title .small-heading { margin-bottom: 40px; }
 .page-title .contentbox { font-size: 17px; margin-top: -30px; margin-bottom: 40px; line-height: 1.5em; }
@@ -989,6 +989,8 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 /* ------------------------------------------------------------------------- *
  *  Comments
 /* ------------------------------------------------------------------------- */
+.entry-comments { margin-bottom: 60px; }
+
 .commentlist { margin-bottom: 20px; }
 .commentlist li { padding-left: 60px; font-size: 14px; line-height: 22px; font-weight: 400; }
 .commentlist .comment-body { clear: both; position: relative; padding-bottom: 15px; }

@@ -24,7 +24,7 @@
 					</div><!--/.entry-->
 					
 					<div class="entry-footer group">
-						<div class="themeform">
+						<div class="entry-comments themeform">
 							<?php comments_template(); ?>
 						</div>
 					</div>
