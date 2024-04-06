@@ -24,7 +24,7 @@ body:where(.dark) .entry { color: rgba(255,255,255,0.85); }
 
 body:where(.dark) .stickywrap:before { border-left-color: rgba(255,255,255,0.1); border-bottom-color: rgba(255,255,255,0.1); }
 body:where(.dark) .pagination ul li a,
-body:where(.dark) #footer-bottom #back-to-top { border-color: rgba(255,255,255,0.1); }
+body:where(.dark) #footer-bottom #back-to-top { background: rgba(255,255,255,0.08); box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); }
 body:where(.dark) .featured-card,
 body:where(.dark) .blog-card { border-bottom: 1px solid rgba(255,255,255,0.06); }
 
@@ -77,7 +77,7 @@ body:where(.dark) .themeform.searchform div:after { color: rgba(255,255,255,0.4)
 body:where(.dark) .social-links .social-tooltip:hover:after { background: #fff; color: #000; }
 body:where(.dark) .social-links .social-tooltip:hover:before { border-color: #fff transparent; }
 
-body:where(.dark) #footer { background: rgba(0,0,0,0.2); box-shadow: inset 0 1px 0 rgba(0,0,0,0.06); }
+body:where(.dark) #footer { background: rgba(255,255,255,0.08); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
 
 body:where(.dark) .featured-card-large-inner { background: rgba(255,255,255,0.1); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
 body:where(.dark) .featured-card-large-thumb { background-color: rgba(255,255,255,0.1); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); }
@@ -96,7 +96,7 @@ body:where(.dark) .post-tags a:hover { background: #fff; color: #000; }
 
 body:where(.dark) .wp-pagenavi a,
 body:where(.dark) .wp-pagenavi span { color: rgba(255,255,255,0.4); }
-body:where(.dark) .wp-pagenavi a { background: rgba(255,255,255,0.08); color: #fff; }
+body:where(.dark) .wp-pagenavi a { background: rgba(255,255,255,0.08); box-shadow: inset 0 1px 0 rgba(255,255,255,0.08); color: #fff; }
 body:where(.dark) .wp-pagenavi a:hover,
 body:where(.dark) .wp-pagenavi a:active,
 body:where(.dark) .wp-pagenavi span.current { background: #fff; color: #000; }
