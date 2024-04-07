@@ -435,8 +435,8 @@ body { background: #fff; }
 #header { padding: 10px 0; margin-bottom: 60px; }
 
 .card-comments,
-.card-comments:hover { background: #fff; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; box-shadow: none; position: relative; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
-.card-comments span { font-weight: 400; transition: all 0.2s ease; }
+.card-comments:hover { background: #fff; font-weight: 800; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; box-shadow: none; position: relative; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
+.card-comments span { transition: all 0.2s ease; }
 .card-comments i { margin-right: 4px; position: relative; }
 .card-comments strong,
 .card-comments i { background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); background-clip: text!important; color: transparent; -webkit-text-fill-color: transparent; }
@@ -472,12 +472,14 @@ body { background: #fff; }
 .intro-card-title { font-weight: 600; font-size: 32px; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 6px; }
 
 .featured-large { padding-bottom: 12px; }
-.featured-card-large { margin-right: 12px; margin-top: 60px; }
+.featured-card-large { margin-right: 12px; margin-top: 60px; position: relative; }
 .featured-card-large-inner { background: #fff; margin: 2px 2px 10px 2px; padding: 20px; border-radius: 12px; box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; }
 .featured-card-large img { display: block; border-radius: 12px; }
 .featured-card-large-thumb { background: #fff; display: block; background-position: center; background-size: cover; aspect-ratio: 1/1; border-radius: 12px; margin: -60px auto 12px; box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; }
 .featured-card-large-thumb i { color: rgba(0,0,0,0.2); font-size: 32px; width: 100%; margin-top: 44%; }
-.feaured-large-title { font-size: 16px; font-weight: 600; line-height: 1.35em; min-height: 86px; max-height: 86px; overflow: hidden; }
+.featured-large-title { font-size: 16px; font-weight: 600; line-height: 1.35em; min-height: 86px; max-height: 86px; overflow: hidden; }
+.featured-large-date { font-size: 14px; }
+.featured-card-large .card-comments { font-size: 11px; position: absolute; right: 3px; bottom: 5px; }
 
 .slick-featured .slick-posts { display: none; }
 .slick-featured .slick-dotted.slick-slider { margin-bottom: 30px; }
