@@ -67,6 +67,12 @@ Carousel images
 
 == Changelog ==
 
+= 1.0.2 - 2024-04-07 =
+* Added accent color to comment count cards
+* Added comment count to featured entries
+* Fixed a typo in markup and css
+* Updated screenshot
+
 = 1.0.1 - 2024-04-06 =
 * Tweaked the theme design
 * Updated screenshot
