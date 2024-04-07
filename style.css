@@ -444,6 +444,7 @@ body { background: #fff; }
 
 .stickywrap { position: relative; }
 .stickywrap:before { content:""; background: radial-gradient(at bottom left, #fff, transparent, transparent); border-left: 1px solid rgba(0,0,0,0.12); border-bottom: 1px solid rgba(0,0,0,0.12); height: 100%; border-radius: 24px; position: absolute; left: 130px; right: 0; top: 0; bottom: 0; pointer-events: none; }
+.stickywrap:after { content:""; background: url(img/dot-pattern-dark-2x.png) repeat top left; background-size: 10px 10px; position: absolute; left: 101px; top: 64px; width: 20px; bottom: 0; z-index: -1; opacity: 0.06; mask-image: linear-gradient(0deg, transparent, #000 40%, #000 100%, transparent 100% ); }
 .stickywrap:nth-child(1):before { border-bottom: 0; }
 .stickywrap .stickywrap-heading { position: sticky; top: 28px; height: 60px; display: flex; align-items: center; font-size: 32px; letter-spacing: -0.04em; font-weight: 600; line-height: 1.3em; text-transform: uppercase; color: rgba(0,0,0,0.12); }
 .stickywrap .stickywrap-heading:before { content:""; width: 40px; height: 6px; background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); position: absolute; border-radius: 12px; top: 27px; left: 126px; z-index: 2; }
