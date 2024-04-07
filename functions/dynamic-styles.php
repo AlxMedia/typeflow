@@ -133,7 +133,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 				'."\n";
 			}
 			// gradient left
-			if ( get_theme_mod('gradient-left','#1e73be') != '#1e73be' ) {
+			if ( get_theme_mod('gradient-left','#dd9933') != '#dd9933' ) {
 				$styles .= '
 .stickywrap .stickywrap-heading:before,
 .stickywrap .stickywrap-inner:before,
@@ -148,7 +148,7 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 				'."\n";
 			}
 			// gradient right
-			if ( get_theme_mod('gradient-right','#6ab7fb') != '#6ab7fb' ) {
+			if ( get_theme_mod('gradient-right','#e16767') != '#e16767' ) {
 				$styles .= '
 .stickywrap .stickywrap-heading:before,
 .stickywrap .stickywrap-inner:before,

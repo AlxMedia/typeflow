@@ -61,11 +61,16 @@ Intro images
 1. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
 
 Carousel images
-1. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
-2. https://stocksnap.io/photo/TVMNBUOZP7 - CC0 1.0 Universal (CC0 1.0)
-3. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.3 - 2024-04-07 =
+* Updated screenshot
+* Changed default color to orange-red
+* Added pixel dots pattern design to left side
 
 = 1.0.2 - 2024-04-07 =
 * Added accent color to comment count cards
