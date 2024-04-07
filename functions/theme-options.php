@@ -471,6 +471,15 @@ Kirki::add_field( 'typeflow_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Left Side Dotted Pattern
+Kirki::add_field( 'typeflow_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'dotted-pattern',
+	'label'			=> esc_html__( 'Dotted Pattern', 'typeflow' ),
+	'description'	=> esc_html__( 'Visible on the left side on larger screens', 'typeflow' ),
+	'section'		=> 'styling',
+	'default'		=> 'off',
+) );
 // Styling: Thumbnail Border Radius
 Kirki::add_field( 'typeflow_theme', array(
 	'type'			=> 'slider',

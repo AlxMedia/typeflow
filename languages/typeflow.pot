@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Typeflow\n"
-"POT-Creation-Date: 2024-04-05 19:55+0200\n"
+"POT-Creation-Date: 2024-04-07 19:15+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -67,19 +67,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:522
+#: functions.php:523
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:526
+#: functions.php:527
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:530
+#: functions.php:531
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:534
+#: functions.php:535
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -560,26 +560,34 @@ msgid "Change color for the logo in dark mode"
 msgstr ""
 
 #: functions/theme-options.php:478
-msgid "Thumbnail Border Radius"
+msgid "Dotted Pattern"
 msgstr ""
 
 #: functions/theme-options.php:479
+msgid "Visible on the left side on larger screens"
+msgstr ""
+
+#: functions/theme-options.php:487
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: functions/theme-options.php:488
 msgid "Set to 0 for default radiuses"
 msgstr ""
 
-#: functions/theme-options.php:492
+#: functions/theme-options.php:501
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:500
+#: functions/theme-options.php:509
 msgid "Gradient Right"
 msgstr ""
 
-#: functions/theme-options.php:508
+#: functions/theme-options.php:517
 msgid "Background Color"
 msgstr ""
 
-#: functions/theme-options.php:516
+#: functions/theme-options.php:525
 msgid "Background Color Border"
 msgstr ""
 

@@ -395,6 +395,7 @@ if ( ! function_exists( 'typeflow_body_class' ) ) {
 		if ( has_nav_menu( 'mobile' ) ) { $classes[] = 'mobile-menu'; }
 		if ( get_theme_mod( 'dark-theme' ,'off' ) == 'on' ) { $classes[] = 'dark'; }
 		if ( get_theme_mod( 'invert-logo' ,'on' ) == 'on' ) { $classes[] = 'invert-dark-logo'; }
+		if ( get_theme_mod( 'dotted-pattern' ,'off' ) == 'on' ) { $classes[] = 'dotted-pattern'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}
