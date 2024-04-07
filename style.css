@@ -435,9 +435,12 @@ body { background: #fff; }
 #header { padding: 10px 0; margin-bottom: 60px; }
 
 .card-comments,
-.card-comments:hover { background: #fff; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
+.card-comments:hover { background: #fff; color: rgba(0,0,0,0.7); box-shadow: 0 0 0 1px #12376914,0 1px 1px #1237690a,0 3px 3px #12376908,0 6px 4px #12376905,0 11px 4px #12376903; box-shadow: none; position: relative; border-radius: 12px; float: left; padding: 1px 10px; margin-right: 4px; }
 .card-comments span { font-weight: 400; transition: all 0.2s ease; }
 .card-comments i { margin-right: 4px; position: relative; }
+.card-comments strong,
+.card-comments i { background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); background-clip: text!important; color: transparent; -webkit-text-fill-color: transparent; }
+.card-comments:after { content:""; background: linear-gradient(90deg, #1e73be 0%, #6ab7fb 100%); position: absolute; top: 0; right: 0; bottom: 0; left: 0; border-radius: 12px; opacity: 0.2; }
 
 .stickywrap { position: relative; }
 .stickywrap:before { content:""; background: radial-gradient(at bottom left, #fff, transparent, transparent); border-left: 1px solid rgba(0,0,0,0.12); border-bottom: 1px solid rgba(0,0,0,0.12); height: 100%; border-radius: 24px; position: absolute; left: 130px; right: 0; top: 0; bottom: 0; pointer-events: none; }

@@ -34,7 +34,7 @@
 							
 							<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
 								<?php $number = get_comments_number( $post->ID ); if ( $number > 0 ) { ?>
-									<a class="card-comments" href="<?php comments_link(); ?>"><i class="far fa-comment-alt"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
+									<a class="card-comments" href="<?php comments_link(); ?>"><strong><i class="far fa-comment-alt"></i><span><?php comments_number( '0', '1', '%' ); ?></span></strong></a>
 								<?php } ?>
 							<?php endif; ?>
 							
