@@ -69,7 +69,6 @@ Carousel images
 
 = 1.0.3 - 2024-04-07 =
 * Updated screenshot
-* Changed default color to orange-red
 * Added pixel dotted pattern design to left side as styling option
 
 = 1.0.2 - 2024-04-07 =

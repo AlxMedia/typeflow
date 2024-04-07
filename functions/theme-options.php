@@ -500,7 +500,7 @@ Kirki::add_field( 'typeflow_theme', array(
 	'settings'		=> 'gradient-left',
 	'label'			=> esc_html__( 'Gradient Left', 'typeflow' ),
 	'section'		=> 'styling',
-	'default'		=> '#dd9933',
+	'default'		=> '#1e73be',
 ) );
 // Styling: Gradient Right
 Kirki::add_field( 'typeflow_theme', array(
@@ -508,7 +508,7 @@ Kirki::add_field( 'typeflow_theme', array(
 	'settings'		=> 'gradient-right',
 	'label'			=> esc_html__( 'Gradient Right', 'typeflow' ),
 	'section'		=> 'styling',
-	'default'		=> '#e16767',
+	'default'		=> '#6ab7fb',
 ) );
 // Styling: Background Color
 Kirki::add_field( 'typeflow_theme', array(
