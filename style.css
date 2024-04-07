@@ -448,7 +448,7 @@ body { background: #fff; }
 body.dotted-pattern .stickywrap:after { display: block; }
 .stickywrap:nth-child(1):before { border-bottom: 0; }
 .stickywrap .stickywrap-heading { position: sticky; top: 28px; height: 60px; display: flex; align-items: center; font-size: 32px; letter-spacing: -0.04em; font-weight: 600; line-height: 1.3em; text-transform: uppercase; color: rgba(0,0,0,0.12); }
-.stickywrap .stickywrap-heading:before { content:""; width: 40px; height: 6px; background: linear-gradient(90deg, #dd9933 0%, #e16767 100%); position: absolute; border-radius: 12px; top: 27px; left: 126px; z-index: 2; }
+.stickywrap .stickywrap-heading:before { content:""; width: 38px; height: 6px; background: linear-gradient(90deg, #dd9933 0%, #e16767 100%); position: absolute; border-radius: 12px; top: 27px; left: 126px; z-index: 2; }
 .stickywrap .stickywrap-heading:after { content: ""; border: 1px solid rgba(0,0,0,0.12); border-right: 0!important; width: 37px; height: 12px; position: absolute; border-radius: 12px 0 0 12px; top: 23px; left: 122px; z-index: 1; }
 .stickywrap .stickywrap-heading a { color: rgba(0,0,0,0.12); }
 .admin-bar .stickywrap .stickywrap-heading { top: 60px; }
