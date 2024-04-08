@@ -141,10 +141,10 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after,
-.themeform input[type="submit"]  { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.themeform input[type="submit"]  { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 .card-comments:after,
 .card-comments strong,
-.card-comments i { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+.card-comments i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 				'."\n";
 			}
 			// gradient right
@@ -156,10 +156,10 @@ body.boxed #header { max-width: '.esc_attr( get_theme_mod('container-width') ).'
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after,
-.themeform input[type="submit"] { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
+.themeform input[type="submit"] { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%)!important; }
 .card-comments:after,
 .card-comments strong,
-.card-comments i { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+.card-comments i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 				'."\n";
 			}
 			// background color

@@ -67,6 +67,9 @@ Carousel images
 
 == Changelog ==
 
+= 1.0.4 - 2024-04-08 =
+* Fixed broken gradient text for comment bubbles
+
 = 1.0.3 - 2024-04-07 =
 * Updated screenshot
 * Added pixel dotted pattern design to left side as styling option
