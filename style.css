@@ -1,7 +1,7 @@
 /*
 Theme Name: Typeflow
 Theme URI: http://alx.media/themes/typeflow/
-Version: 1.0.4
+Version: 1.0.5
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.4
@@ -160,8 +160,7 @@ transition: all .2s ease;
 /*  base : headings
 /* ------------------------------------ */
 .heading,
-#reply-title,
-h3#comments { font-weight: normal; font-size: 18px; font-weight: 600; margin-bottom: 1em; line-height: 1.5em; }
+.comment-reply-title { font-weight: normal; font-size: 18px; font-weight: 600; margin-bottom: 1em; line-height: 1.5em; }
 .heading i { font-size: 22px; margin-right: 6px; }
 
 
@@ -999,7 +998,7 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 .entry-comments { margin-bottom: 60px; }
 
 .commentlist { margin-bottom: 20px; }
-.commentlist li { padding-left: 60px; font-size: 14px; line-height: 22px; font-weight: 400; }
+.commentlist li { padding-left: 60px; font-size: 14px; line-height: 22px; font-weight: 400; list-style: none; }
 .commentlist .comment-body { clear: both; position: relative; padding-bottom: 15px; }
 .commentlist .comment-author,
 .commentlist .comment-metadata,
@@ -1040,10 +1039,11 @@ body.dark #theme-toggle-btn:before { border-color: #fff; top: 2px; left: 2px; }
 
 /*  comments : nav
 /* ------------------------------------ */
-.comments-nav { margin-bottom: 20px; }
-.comments-nav a { font-weight: 600; }
-.comments-nav .nav-previous { float: left; }
-.comments-nav .nav-next { float: right;  }
+.comments-nav { margin: 40px 0; text-align: center; font-weight: 600; }
+.comments-nav.only-next { text-align: left; }
+.comments-nav.only-prev { text-align: right; }
+.comments-nav .prev { float: left; }
+.comments-nav .next { float: right;  }
 
 /*  comments : form
 /* ------------------------------------ */

@@ -440,19 +440,6 @@ if ( ! function_exists( 'typeflow_excerpt_length' ) ) {
 add_filter( 'excerpt_length', 'typeflow_excerpt_length', 999 );
 
 
-/*  Comments avatar size
-/* ------------------------------------ */
-if ( ! function_exists( 'typeflow_comments_avatar_size' ) ) {
-	
-	function typeflow_comments_avatar_size( $args ) {
-		$args['avatar_size'] = 64;
-		return $args;
-	}
-	
-}
-add_filter( 'wp_list_comments_args', 'typeflow_comments_avatar_size' );
-
-
 /* ------------------------------------------------------------------------- *
  *  Actions
 /* ------------------------------------------------------------------------- */	

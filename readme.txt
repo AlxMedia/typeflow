@@ -67,6 +67,10 @@ Carousel images
 
 == Changelog ==
 
+= 1.0.5 - 2024-04-19 =
+* Added required comments template
+* Updated language files
+
 = 1.0.4 - 2024-04-08 =
 * Fixed broken gradient text for comment bubbles
 

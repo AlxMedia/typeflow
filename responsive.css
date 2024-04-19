@@ -81,6 +81,8 @@
 	.slick-featured .slick-dots { padding-right: 0; }
 	
 	.pagination { margin-top: 60px; }
+	.comments-nav .next,
+	.comments-nav .prev { width: 100%; }
 	
 	.intro-card-inner { padding-left: 0; }
 	.intro-card-left { position: relative; }
